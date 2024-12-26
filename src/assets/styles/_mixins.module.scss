@@ -1,0 +1,5 @@
+// khối code dùng chung có thể tái sử dụng lại giống như function
+
+@mixin radius_common($radius: 10px) {
+    border-radius: $radius;
+}
